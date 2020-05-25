@@ -1,0 +1,13 @@
+.Card{
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    align-content: center;
+}
+.MuiCardContent-root:last-child{
+    padding-bottom: 0px !important;
+}
+
+
+.MuiCardContent-root{
+    padding: 0px !important;
+}

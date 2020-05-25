@@ -1,10 +1,10 @@
 import React from "react";
 import {Container, Grid} from "@material-ui/core";
-import Card from './Card';
+import './Footer.css';
 
 const Footer = (props) => {
     return (
-        <Container maxWidth="ex">
+        <Container class="Cont" maxWidth="ex">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={4}>
                     <a href="#" className="#">

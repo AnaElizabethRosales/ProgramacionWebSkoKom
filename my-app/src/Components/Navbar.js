@@ -1,22 +1,32 @@
 import React from 'react';
-import {Link, Grid , makeStyles}from '@material-ui/core/';
+import {Grid , makeStyles}from '@material-ui/core/';
+import Link from '@material-ui/core/Link';
+import Typography from '@material-ui/core/Typography';
 import Logo from './Logo';
+import './Navbar.css'
+
+
 
 const useStyles = makeStyles ({
     root: {
         flexGrow: 1,
+        paddingLeft:15,
+        paddingRight:15
     },
     menu: {
         alignItems: 'flex-end',
         textAlign:'right',
+
     },
     item:{
-        paddingLeft:15
+        paddingLeft:15,
+        paddingRight:15
     }
 });
 
 const Navbar = (props) => {
     const  classes  = useStyles();
+    const preventDefault = (event) => event.preventDefault();
     return(
     <div>
 
@@ -26,48 +36,24 @@ const Navbar = (props) => {
                 <Logo systemName={props.systemName}/>
             </Grid>
             <Grid className={classes.menu} item xs={9} display="flex" flexDirection="row-reverse">
-                <Link
-                    component="button"
-                    variant="body1"
-                    underline="none"
-                    onClick={() => { console.info("Boton");   }}
-                    className={classes.item}
-                >
+                <Typography className={classes.root}>
+                    <Link href="../App2.js" variant="body1" onClick={preventDefault}>
+
                    | Inicio |
                 </Link>
-                <Link
-                    component="button"
-                    variant="body1"
-                    underline="none"
-                    onClick={() => {
-                        console.info("Boton");
-                    }}
-                    className={classes.item}
-                >
+
+                    <Link href="../App2.js" variant="body1" onClick={preventDefault}>
                     Catalogo |
                 </Link>
-                <Link
-                    component="button"
-                    variant="body1"
-                    underline="none"
-                    onClick={() => {
-                        console.info("Boton");
-                    }}
-                    className={classes.item}
-                >
+
+                    <Link href="../App2.js" variant="body1" onClick={preventDefault}>
                     Inicio Sesion |
                 </Link>
-                <Link
-                    component="button"
-                    variant="body1"
-                    underline="none"
-                    onClick={() => {
-                        console.info("Boton");
-                    }}
-                    className={classes.item}
-                >
+
+                    <Link href="../App2.js" variant="body1" onClick={preventDefault}>
                     Registro |
                 </Link>
+                </Typography>
             </Grid>
         </Grid>
     </div>

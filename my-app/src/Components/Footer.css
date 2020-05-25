@@ -1,0 +1,26 @@
+const.Footer{
+    background-color: dimgrey;
+    text-align-all: justify;
+}
+Footer.Container{
+    background-color: #61dafb;
+
+}
+.Footer{
+    padding-top: 30px;
+}
+
+a{
+    color: #562300;
+    text-align-all: justify;
+
+}
+.Cont{
+    background: rgba(43, 23, 5, 1);
+    background: -moz-linear-gradient(-45deg, rgba(43, 23, 5, 1) 0%, rgba(66, 37, 5, 1) 33%, rgba(125, 75, 23, 1) 84%, rgba(125, 75, 23, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(43, 23, 5, 1) 0%, rgba(66, 37, 5, 1) 33%, rgba(125, 75, 23, 1) 84%, rgba(125, 75, 23, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(43, 23, 5, 1) 0%, rgba(66, 37, 5, 1) 33%, rgba(125, 75, 23, 1) 84%, rgba(125, 75, 23, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(43, 23, 5, 1) 0%, rgba(66, 37, 5, 1) 33%, rgba(125, 75, 23, 1) 84%, rgba(125, 75, 23, 1) 100%);
+    background: linear-gradient(135deg, rgba(43, 23, 5, 1) 0%, rgba(66, 37, 5, 1) 33%, rgba(125, 75, 23, 1) 84%, rgba(125, 75, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2b1705', endColorstr='#7d4b17', GradientType=1);
+}

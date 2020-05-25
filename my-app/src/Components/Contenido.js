@@ -1,7 +1,10 @@
 import React from 'react';
 import {Container, Grid} from "@material-ui/core";
 import Imagen from "./Carousel";
+
 import Card from './Card';
+import Button from "@material-ui/core/Button";
+import CardActions from "@material-ui/core/CardActions";
 
 const Contenido = (props) => {
     return (
@@ -14,6 +17,14 @@ const Contenido = (props) => {
                 </Grid>
                 <Grid item xs={12} sm={4}>
                     <Card src={'img/z6.jpg'} height={300}/>
+                    <CardActions>
+                        <Button variant="contained" color="brown" href="#contained-buttons">
+                            Visitar
+                        </Button>
+                        <Button variant="contained" color="brown" href="#contained-buttons">
+                            Comprar
+                        </Button>
+                    </CardActions>
                 </Grid>
 
             </Grid>

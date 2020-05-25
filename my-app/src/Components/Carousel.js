@@ -13,7 +13,7 @@ const useStyles = makeStyles ({
 const Carousel = (props) => {
     const  classes  = useStyles();
     return (
-        <Container maxWidth="ex" className={classes.root}>
+        <Container maxWidth="lg" className={classes.root}>
             <Card src={'img/coso3.jpg'} height={400} />
         </Container>
     )
