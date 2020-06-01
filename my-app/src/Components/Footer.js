@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = (props) => {
     return (
-        <Container class="Cont" maxWidth="ex">
+        <Container class="Cont" maxWidth="false">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={4}>
                     <a href="#" className="#">

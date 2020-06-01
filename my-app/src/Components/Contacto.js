@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
+import './Contacto.css';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -24,11 +25,11 @@ export default function BasicTextFields() {
             <TextField id="outlined-basic" label="Correo" variant="outlined" margin={'normal'} size={"medium"} />
             <TextField id="outlined-basic" label="Nombre" variant="outlined" margin={'normal'}/>
             <TextField id="outlined-basic" label="Telefono" variant="outlined" margin={'normal'} />
-            <Button variant="contained" color="secondary">
-                Secondary
-            </Button>
-        </form>
 
+        </form>
+            <Button variant="contained" color="inherit">
+                Enviar
+            </Button>
         </div>
     );
 }

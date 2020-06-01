@@ -1,16 +1,22 @@
 import React from 'react';
 import {Container, Grid} from "@material-ui/core";
-import Imagen from "./Carousel";
 
+import './Contenido.css'
 import Card from './Card';
 import Button from "@material-ui/core/Button";
 import CardActions from "@material-ui/core/CardActions";
+
+
+
 
 const Contenido = (props) => {
     return (
         <Container maxWidth="ex">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={8}>
+                    <h1 className="animated swing delay-3s">
+                        <center>La mejor variedad en calzado para mujer!</center>
+                    </h1>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto distinctio dolor ducimus excepturi ipsum magni maiores, obcaecati officia optio rem repellat repellendus rerum sint sit ullam voluptas. Earum, recusandae.
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur assumenda distinctio ea facilis in iste laboriosam neque odit, quisquam quos recusandae sapiente soluta totam velit, voluptatem, voluptates?
 
