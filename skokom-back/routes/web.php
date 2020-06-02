@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 Route::get('/productos', function () {
     $productosList = DB::table('productos')->get();
-    return $productosList;
+    return view('productos', ['productosLista' => $productosList]);
 });
 
