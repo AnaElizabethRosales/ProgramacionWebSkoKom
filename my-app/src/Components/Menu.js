@@ -9,6 +9,7 @@ import './Navbar.css'
 const useStyles = makeStyles ({
     item:{
         paddingLeft:15,
+        
         paddingRight:15
     }
 });
