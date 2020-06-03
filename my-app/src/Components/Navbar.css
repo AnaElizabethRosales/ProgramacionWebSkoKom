@@ -1,4 +1,5 @@
 .Nav{
+    padding-top: 25px;
     background: rgba(243,226,199,1);
     background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 1%, rgba(182,141,76,1) 9%, rgba(87,55,11,1) 96%, rgba(87,55,11,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(1%, rgba(193,158,103,1)), color-stop(9%, rgba(182,141,76,1)), color-stop(96%, rgba(87,55,11,1)), color-stop(100%, rgba(87,55,11,1)));

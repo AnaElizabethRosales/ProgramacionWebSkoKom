@@ -30,7 +30,6 @@ const Navbar = (props) => {
     return(
     <div class="Nav">
 
-        *NavBar*
         <Grid container  spacing={3}>
             <Grid item xs={3}>
                 <Logo systemName={props.systemName}/>

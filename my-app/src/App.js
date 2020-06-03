@@ -13,7 +13,7 @@ import Footer from "./Components/Footer";
 
 function App() {
         const config = {
-           systemName: 'SkoKom'
+           systemName:'SkoKom'
     }
         return (
 

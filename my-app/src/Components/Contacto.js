@@ -18,7 +18,7 @@ export default function BasicTextFields() {
 
     return (
         <div>
-            <h3>Llena el formulario para que podamos contactarnos! >D</h3>
+            <h3>Llena el formulario para que podamos contactarnos! =D</h3>
 
         <form className={classes.root} noValidate autoComplete="off">
 

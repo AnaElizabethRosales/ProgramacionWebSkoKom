@@ -9,17 +9,26 @@ import CardActions from "@material-ui/core/CardActions";
 
 
 
+
 const Contenido = (props) => {
     return (
         <Container maxWidth="ex">
             <Grid container spacing={3}>
                 <Grid item xs={12} sm={8}>
-                    <h1 className="animated swing delay-3s">
+                    <h1>
                         <center>La mejor variedad en calzado para mujer!</center>
                     </h1>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto distinctio dolor ducimus excepturi ipsum magni maiores, obcaecati officia optio rem repellat repellendus rerum sint sit ullam voluptas. Earum, recusandae.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet aperiam aspernatur assumenda distinctio ea facilis in iste laboriosam neque odit, quisquam quos recusandae sapiente soluta totam velit, voluptatem, voluptates?
-
+                    <div className="letrita">
+                    <p>
+                        Bienvenido a nuestro sitio web!
+                        <br/>
+                        Aquí encontraras los zapatos de mejor calidad al mejor precio en el mercado, así como gran variedad de calzado para mujer.
+                        <br/>
+                        Somos una empresa responsable, con un negocio físico e incluso hacemos envíos a todo México.
+                        <br/>
+                        El mejor calzado del país.
+                    </p>
+                    </div>
                 </Grid>
                 <Grid item xs={12} sm={4}>
                     <Card src={'img/z6.jpg'} height={300}/>
