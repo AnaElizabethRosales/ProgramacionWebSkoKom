@@ -99,7 +99,7 @@ const Catalogo = () => {
                         </CardActions>
                     </Grid>
                     <Grid item xs={12} sm={6} md={3}>
-                        <Card src={'img/z7.jpg'}  height={140} />
+                        <Card src={'img/z13.jpg'}  height={140} />
                         <CardActions>
                             <Button variant="contained" color="brown" href="#contained-buttons">
                                 Visitar
